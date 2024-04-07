@@ -54,6 +54,8 @@
     "@dcloudio/uni-mp-weixin": "^0.0.973",
     "@dcloudio/uni-mp-xhs": "3.0.0-alpha-3090420231021001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-alpha-3090420231021001",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
     "vue": "3.3.11",
     "vue-i18n": "9.10.2"
   },
