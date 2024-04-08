@@ -57,7 +57,6 @@
     "@dcloudio/uni-mp-xhs": "3.0.0-alpha-3090420231021001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-alpha-3090420231021001",
     "fuse.js": "^7.0.0",
-    "lodash": "^4.17.21",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue": "3.3.11",
@@ -71,6 +70,8 @@
     "@dcloudio/uni-stacktracey": "3.0.0-alpha-3090420231021001",
     "@dcloudio/vite-plugin-uni": "^3.0.0-alpha-3090420231021001",
     "@vue/runtime-core": "3.4.21",
+    "husky": "^9.0.11",
+    "lodash": "^4.17.21",
     "vite": "^4.5.3"
   },
   "gitHooks": {
