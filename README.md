@@ -9,7 +9,7 @@ npm run dev:h5
 
 
 ## 3. 打包H5
-npm run build:h5
+npm run build:h5 
 
 
 ## 4. 运行APP
