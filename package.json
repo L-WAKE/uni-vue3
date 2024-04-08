@@ -1,6 +1,6 @@
 {
-  "name": "uni-preset-vue",
-  "version": "0.0.0",
+  "name": "uni-vue3",
+  "version": "0.0.1",
   "scripts": {
     "dev:app": "uni -p app",
     "dev:app-android": "uni -p app-android",
@@ -37,7 +37,9 @@
     "build:mp-xhs": "uni build -p mp-xhs",
     "build:quickapp-webview": "uni build -p quickapp-webview",
     "build:quickapp-webview-huawei": "uni build -p quickapp-webview-huawei",
-    "build:quickapp-webview-union": "uni build -p quickapp-webview-union"
+    "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
+    "lint": "eslint --fix --ext .js,.vue src",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-alpha-3090420231021001",
@@ -54,10 +56,13 @@
     "@dcloudio/uni-mp-weixin": "^0.0.973",
     "@dcloudio/uni-mp-xhs": "3.0.0-alpha-3090420231021001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-alpha-3090420231021001",
+    "fuse.js": "^7.0.0",
+    "lodash": "^4.17.21",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue": "3.3.11",
-    "vue-i18n": "9.10.2"
+    "vue-i18n": "9.10.2",
+    "z-paging": "^2.7.1"
   },
   "devDependencies": {
     "@dcloudio/types": "3.4.8",
@@ -67,5 +72,8 @@
     "@dcloudio/vite-plugin-uni": "^3.0.0-alpha-3090420231021001",
     "@vue/runtime-core": "3.4.21",
     "vite": "^4.5.3"
+  },
+  "gitHooks": {
+    "commit-msg": "commitlint -E GIT_PARAMS"
   }
 }
