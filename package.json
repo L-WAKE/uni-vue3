@@ -37,13 +37,9 @@
     "build:mp-xhs": "uni build -p mp-xhs",
     "build:quickapp-webview": "uni build -p quickapp-webview",
     "build:quickapp-webview-huawei": "uni build -p quickapp-webview-huawei",
-    "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
-    "lint": "eslint --fix --ext .js,.vue src",
-    "prepare": "husky install"
+    "build:quickapp-webview-union": "uni build -p quickapp-webview-union"
   },
   "dependencies": {
-    "@commitlint/cli": "^19.2.1",
-    "@commitlint/config-conventional": "^19.1.0",
     "@dcloudio/uni-app": "3.0.0-alpha-3090420231021001",
     "@dcloudio/uni-app-plus": "3.0.0-alpha-3090420231021001",
     "@dcloudio/uni-components": "3.0.0-alpha-3090420231021001",
@@ -76,8 +72,5 @@
     "husky": "^9.0.11",
     "lodash": "^4.17.21",
     "vite": "^4.5.3"
-  },
-  "gitHooks": {
-    "commit-msg": "commitlint -E GIT_PARAMS"
   }
 }
