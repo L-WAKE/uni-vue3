@@ -5,12 +5,12 @@
       <text class="title">{{ title }}</text>
     </view>
     <view style="padding: 20px">
-      <u-button>默认按钮</u-button>
-      <u-button type="primary">主要按钮</u-button>
-      <u-button type="success">成功按钮</u-button>
-      <u-button type="info">信息按钮</u-button>
-      <u-button type="warning">警告按钮</u-button>
-      <u-button type="error">危险按钮</u-button>
+      <uv-button>默认按钮</uv-button>
+      <uv-button type="primary">主要按钮</uv-button>
+      <uv-button type="success">成功按钮</uv-button>
+      <uv-button type="info">信息按钮</uv-button>
+      <uv-button type="warning">警告按钮</uv-button>
+      <uv-button type="error">危险按钮</uv-button>
     </view>
   </view>
   <view style="padding: 20px"> </view>
